@@ -1,8 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import{FiLogIn} from 'react-icons/fi';
+
 import './styles.css';
+
 import Logo from'../../assets/logo.svg';
 import Bunner from '../../assets/heroes.png';
-import{FiLogIn} from 'react-icons/fi';
+
+
 export default function Login(){
     return (
         <div class="login-container">
@@ -13,9 +18,12 @@ export default function Login(){
                     <h1>Faça seu Login</h1>
                     <input placeholder ="seu ID"/>
                     <button class="button"type="submit">Entrar</button>
-                    <a href="FiLogIn">
+                    
+                    <Link className="links" to="/register">
                         <FiLogIn size={15} color="#e02041"/>
-                        Não tenho cadastro</a>
+                        Não tenho cadastro
+                    </Link>
+
                 </form>
 
             </section>

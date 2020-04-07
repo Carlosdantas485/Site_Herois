@@ -48,9 +48,32 @@ form input{
     font-size: 18px;
     line-height: 60px;
     transition: filter 0.2s;
+    transition: 0.4s all;
 
 }
 
 .button:hover{
     filter: brightness(90%);
+    transform: scale(1.05);
 }
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.links svg{
+    margin-right: 8px;
+}
+
+.links:hover{
+    opacity: 0.8;
+}
+
