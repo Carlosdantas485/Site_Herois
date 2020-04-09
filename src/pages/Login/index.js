@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import{FiLogIn} from 'react-icons/fi';
 
 import './styles.css';
 
+import{FiLogIn} from 'react-icons/fi';
 import Logo from'../../assets/logo.svg';
 import Bunner from '../../assets/heroes.png';
 
